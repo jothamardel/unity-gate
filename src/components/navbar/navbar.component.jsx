@@ -1,6 +1,6 @@
 import React from 'react';
 import gosa from '../../assets/gosa.jpg';
-import './navbar.styles.sass';
+import './navbar.styles.scss';
 
 
 const NavBar = () => (

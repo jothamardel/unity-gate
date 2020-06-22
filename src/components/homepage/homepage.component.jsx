@@ -1,8 +1,8 @@
 import React from 'react';
 import CustomButton from '../../components/customButton/customButton.component';
 import gosa from '../../assets/gosa.jpg';
-import './homepage.styles.sass';
 import Particle from '../particles/particles.component';
+import './homepage.styles.scss';
 
 
 const Homepage = () => (

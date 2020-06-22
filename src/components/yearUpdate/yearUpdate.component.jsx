@@ -4,7 +4,7 @@ import { Icon } from 'flwww';
 import NavBar from '../navbar/navbar.component';
 import CustomButton from '../customButton/customButton.component';
 
-import './yearUpdate.styles.sass';
+import './yearUpdate.styles.scss';
 
 const YearUpdate = () => (
   <React.Fragment>

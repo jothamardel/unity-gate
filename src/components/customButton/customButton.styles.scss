@@ -1,4 +1,4 @@
-.custom-button 
+.custom-button { 
     min-width: 165px;
     width: auto;
     height: 40px;
@@ -15,31 +15,36 @@
     border-radius: 8px;
     margin-bottom: 15px;
   
-    &:hover 
+    &:hover { 
       background-color: white;
       color: black;
       border: 1px solid black;
+    }
     
 
-    &.google-sign-in 
+    &.google-sign-in {
       margin-bottom: 9px;
+    }
 
-      &:hover
+      &:hover {
         background-color: #000000;
         color: white;
         border: none;
+      }
       
-    &.inverted
+    &.inverted {
       background-color: white;
       color: black;
       border: 1px solid black;
+    }
       
-      &:hover
+      &:hover {
         background-color: black;
         color: white;
         border: none;
-
-.next-btn
+      }
+}
+.next-btn {
   color: white;
   width: 137px;
   height: 29.08px;
@@ -48,3 +53,4 @@
   border: 1px solid #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
+}
