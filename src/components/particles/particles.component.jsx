@@ -1,6 +1,6 @@
 import React from 'react';
 import Particles from 'react-particles-js';
-import './particles.styles.sass';
+import './particles.styles.scss';
 
 const particlesParameters = {
   particles: {

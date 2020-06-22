@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './searchbox.styles.sass';
+import './searchbox.styles.scss';
 
 
 const SearchBox = ({...otherProps}) => (

@@ -4,7 +4,7 @@ import Particle from '../particles/particles.component';
 import SearchBox from '../searchbox/searchbox.component';
 import CustomButton from '../customButton/customButton.component';
 import NavBar from '../navbar/navbar.component';
-import './nameUpdate.styles.sass';
+import './nameUpdate.styles.scss';
 
 
 const data = [
@@ -266,7 +266,6 @@ const NameUpdate = () => {
                   value={`${student.name}`} 
                   key={student.id}
                 />
-                
                   { student.name }
                 </p>
             ))

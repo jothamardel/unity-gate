@@ -1,0 +1,36 @@
+
+.update-bio{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 258px;
+  height: 280px;
+  left: 31px;
+  top: 90px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 32px;
+
+  .update-bio-title {
+    font-size: 24px;
+    text-align: center;
+    color: #7F7F7F;
+  }
+
+  .update-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+    .update-bio-data {
+      width: 207px;
+      height: 24px;
+      left: 56px;
+      top: 315px;
+      background: #FFFFFF;
+      border: 1px solid rgba(0, 0, 0, 0.23);
+      box-sizing: border-box;
+      margin-bottom: 10px;
+    }
+}
