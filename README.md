@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/cf50a3ad8d874e42a90a8605db3929b1)](https://app.codacy.com/manual/jothamardel/unity-gate?utm_source=github.com&utm_medium=referral&utm_content=jothamardel/unity-gate&utm_campaign=Badge_Grade_Dashboard)
+
 In the project directory, you can run:
 
 ### `yarn start`
