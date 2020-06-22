@@ -1,31 +1,14 @@
 import React from 'react';
-import Particles from 'react-particles-js';
 import CustomButton from '../../components/customButton/customButton.component';
 import gosa from '../../assets/gosa.jpg';
 import './homepage.styles.sass';
-
-
-const particlesParameters = {
-  particles: {
-    number: {
-      value: 45,
-      density: {
-        enable: true,
-        value_area: 250
-      }
-    }    
-  }
-}
-
+import Particle from '../particles/particles.component';
 
 
 const Homepage = () => (
   <div className='home-page'>
 
-    <Particles 
-      params={ particlesParameters }
-      className='particles'
-    />
+    <Particle/>
 
     <div className='home-page-container'>
 
