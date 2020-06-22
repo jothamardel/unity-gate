@@ -1,19 +1,15 @@
 import React from 'react';
 import Particle from '../particles/particles.component';
 import { Icon } from 'flwww';
+import NavBar from '../navbar/navbar.component';
 import CustomButton from '../customButton/customButton.component';
-import gosa from '../../assets/gosa.jpg';
 
 import './yearUpdate.styles.sass';
 
 const YearUpdate = () => (
   <React.Fragment>
     <Particle/>
-    <nav className='nav-bar'>
-      <div className='nav-bar-image-container'>
-        <img src={ gosa } alt='homepage-img' className='nav-bar-image'/>
-      </div>
-    </nav>
+    <NavBar />
     <div className='year-container'>
       <h1 className='year-heading'>Welcome, user</h1>
       <p className='year-desc'>Let's update your details...</p>
