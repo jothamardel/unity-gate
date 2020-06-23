@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Icon } from 'flwww';
 import Particle from '../particles/particles.component';
 import SearchBox from '../searchbox/searchbox.component';
@@ -241,7 +241,8 @@ const data = [
 ]
 
 const NameUpdate = () => {
- 
+  const [ value, setValue ] = useState('');
+  const filteredStudents = data.filter((student) => student.name.toLowerCase().includes(value.toLowerCase()));
   return (
     <React.Fragment>
       <Particle />
@@ -252,10 +253,11 @@ const NameUpdate = () => {
         <SearchBox 
           className='search-box'
           placeholder='search & select your name'
+          onChange={ (event) => setValue(event.target.value)}
         />
         <div className='display-names'>
           {
-            data.map((student) => (
+            filteredStudents.map((student) => (
                 <p
                   className='student-names'
                   key={ student.id }
