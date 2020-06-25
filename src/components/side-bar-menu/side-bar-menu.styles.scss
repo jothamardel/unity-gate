@@ -1,0 +1,33 @@
+.side-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .side-menu-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.7px solid #AEBC30;
+    width: 100vw;
+    
+    p {
+      font-size: 10px;
+      margin: 0;
+      color: #AEBC30;
+    }
+  }
+
+  .menu {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #7F7F7F7F;
+    margin-bottom: 15px;
+
+    :active {
+      color: #AEBC30;
+      border: 1px solid #AEBC30;
+    }
+  }
+}
