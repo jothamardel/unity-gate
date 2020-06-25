@@ -1,0 +1,76 @@
+
+.dashboard {
+  position: fixed;
+  background: white;
+  
+  .dashboard-profile {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    top: 34px;
+
+    h4 {
+      font-size: 10px;
+      margin: 0;
+      color: #7F7F7F;
+      margin-right: 5px;
+    }
+
+    span {
+      font-size: 10px;
+      color: #AEBC30;
+      padding: 2px;
+      border: 0.7px solid #7F7F7F;
+
+    }
+  }
+
+  .search-box-dashboard {
+    position: absolute;
+    width: 225px;
+    height: 24px;
+    left: 51px;
+    top: 50px;
+    background: #FFFFFF;
+    border: 0.7px solid #AEBC30;
+    margin-top: 2px;
+    box-shadow: 0px 4px 4px rgba(127, 127, 127, 0.3);
+    box-sizing: border-box;
+  }
+  input, ::placeholder {
+    padding-left: 5px;
+    color: rgba(0, 0, 0, 0.3);
+  }
+  .dashboard-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    padding: 0;
+    width: 250px;
+    height: 307px;
+    left: 38px;
+    top: 80px;
+    background: #FFFF;
+    border-top: 0.7px solid #7F7F7F7F;
+    overflow-y: scroll;
+  }
+
+  .dashboard-menu {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width: 320px;
+    height: 46px;
+    left: 0px;
+    top: 388px;
+    border: 1px solid rgba(9, 9, 9, 0.2);
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    .icon:active {
+      background: #AEBC30;
+    }    
+  }
+}
