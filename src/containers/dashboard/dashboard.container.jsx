@@ -2,14 +2,15 @@ import React, { useState } from 'react';
 import { Icon } from 'flwww';
 import { data } from '../../utils/utils';
 import { connect } from 'react-redux';
-import { showStudentProfile } from '../../redux/modal/modal.actions';
+import { showStudentProfile, toggleMenu } from '../../redux/modal/modal.actions';
 import './dashboard.styles.scss';
 import NavBar from '../../components/navbar/navbar.component';
 import SearchBox from '../../components/searchbox/searchbox.component';
 import Card from '../../components/card/card.component';
 import Modal from '../../components/modal/modal.component';
+import SideBarMenu from '../../components/side-bar-menu/side-bar-menu.component';
 
-const Dashboard = ({ modal, showStudentProfile }) => {
+const Dashboard = ({ modal, showStudentProfile, toggleMenu }) => {
   const [ value, setValue ] = useState('');
   const filteredStudents = data.filter((student) => student.name.toLowerCase().includes(value.toLowerCase()));
   return (
@@ -39,12 +40,15 @@ const Dashboard = ({ modal, showStudentProfile }) => {
               ))
             }
           </div>
+          <SideBarMenu />
           <div className='dashboard-menu'>
             <Icon type="home" size="40px" color="#7F7F7F" className='icon'/>
             <Icon type="creditCard" size="40px" color="#7F7F7F" className='icon'/>
             <Icon type="globe" isSpinning size="40px" color="#AEBC30" className='icon'/>
             <Icon type="messageSquare" size="40px" color="#7F7F7F" className='icon'/>
-            <Icon type="alignJustify" size="40px" color="#7F7F7F" className='icon'/>
+            <div onClick={ toggleMenu }>
+              <Icon type="alignJustify" size="40px" color="#7F7F7F" className='icon' />
+            </div>
           </div>
       {
         modal.showStudentProfile ?
@@ -68,7 +72,8 @@ const mapDispatchToprops = (state) => ({
 });
 
 const mapDispatchToProps = (dispatch) => ({
-  showStudentProfile: (index) => dispatch(showStudentProfile(index))
+  showStudentProfile: (index) => dispatch(showStudentProfile(index)),
+  toggleMenu: () => dispatch(toggleMenu())
 });
 
 export default connect(mapDispatchToprops, mapDispatchToProps)(Dashboard);

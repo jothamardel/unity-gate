@@ -5,3 +5,4 @@ export const showStudentProfile = (index) => ({
   payload: index
 });
 export const closeAllModals = () => ({ type: ConstantActionTypes.CLOSE_ALL_MODAL });
+export const toggleMenu = () => ({ type: ConstantActionTypes.TOGGLE_MENU });
