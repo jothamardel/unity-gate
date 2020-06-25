@@ -4,6 +4,9 @@
     "name": "Leanne Graham",
     "username": "Bret",
     "email": "Sincere@april.biz",
+    "year": "2009",
+    "house": "Livingstone",
+    "occupation": "Student",
     "isActive": "pending",
     "address": {
       "street": "Kulas Light",
@@ -28,6 +31,9 @@
     "name": "Ervin Howell",
     "username": "Antonette",
     "email": "Shanna@melissa.tv",
+    "year": "2009",
+    "house": "Livingstone",
+    "occupation": "Student",
     "isActive": "pending",
     "address": {
       "street": "Victor Plains",
@@ -52,6 +58,9 @@
     "name": "Clementine Bauch",
     "username": "Samantha",
     "email": "Nathan@yesenia.net",
+    "year": "2009",
+    "house": "Livingstone",
+    "occupation": "Student",
     "isActive": "pending",
     "address": {
       "street": "Douglas Extension",
@@ -76,6 +85,9 @@
     "name": "Patricia Lebsack",
     "username": "Karianne",
     "email": "Julianne.OConner@kory.org",
+    "year": "2009",
+    "house": "Livingstone",
+    "occupation": "Student",
     "isActive": "pending",
     "address": {
       "street": "Hoeger Mall",
@@ -100,6 +112,9 @@
     "name": "Chelsey Dietrich",
     "username": "Kamren",
     "email": "Lucio_Hettinger@annie.ca",
+    "year": "2009",
+    "house": "Livingstone",
+    "occupation": "Student",
     "isActive": "pending",
     "address": {
       "street": "Skiles Walks",
@@ -124,6 +139,9 @@
     "name": "Mrs. Dennis Schulist",
     "username": "Leopoldo_Corkery",
     "email": "Karley_Dach@jasper.info",
+    "year": "2009",
+    "house": "Livingstone",
+    "occupation": "Student",
     "isActive": "pending",
     "address": {
       "street": "Norberto Crossing",
@@ -148,6 +166,9 @@
     "name": "Kurtis Weissnat",
     "username": "Elwyn.Skiles",
     "email": "Telly.Hoeger@billy.biz",
+    "year": "2009",
+    "house": "Livingstone",
+    "occupation": "Student",
     "isActive": "pending",
     "address": {
       "street": "Rex Trail",
@@ -172,6 +193,9 @@
     "name": "Nicholas Runolfsdottir V",
     "username": "Maxime_Nienow",
     "email": "Sherwood@rosamond.me",
+    "year": "2009",
+    "house": "Livingstone",
+    "occupation": "Student",
     "isActive": "pending",
     "address": {
       "street": "Ellsworth Summit",
@@ -196,6 +220,9 @@
     "name": "Glenna Reichert",
     "username": "Delphine",
     "email": "Chaim_McDermott@dana.io",
+    "year": "2009",
+    "house": "Livingstone",
+    "occupation": "Student",
     "isActive": "pending",
     "address": {
       "street": "Dayna Park",
@@ -220,6 +247,9 @@
     "name": "Clementina DuBuque",
     "username": "Moriah.Stanton",
     "email": "Rey.Padberg@karina.biz",
+    "year": "2009",
+    "house": "Livingstone",
+    "occupation": "Student",
     "isActive": "pending",
     "address": {
       "street": "Kattie Turnpike",
