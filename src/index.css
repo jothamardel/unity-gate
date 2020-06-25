@@ -10,8 +10,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-image: linear-gradient(to right, #0F9D58, #F4B400); */
-  background: #7F7F7F;
+  /* background-image: linear-gradient(to right, #0F9D58, #F4B400, 7F7F7F); */
+  background: linear-gradient(to right,  #7F7F7F, #AEBC30);
   box-sizing: border-box;
 }
 
