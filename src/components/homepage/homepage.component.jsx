@@ -2,37 +2,45 @@ import React from 'react';
 import CustomButton from '../../components/customButton/customButton.component';
 import gosa from '../../assets/gosa.jpg';
 import Particle from '../particles/particles.component';
-import './homepage.styles.scss';
+import {
+  HomePage,
+  HomePageContainer,
+  HomePageDesc,
+  HomePageDescHeading,
+  HomePageImageContainer,
+  HomePageImage,
+  CustomLink, I
+} from './homepage.styles';
 
 
 const Homepage = () => (
-  <div className='home-page'>
+  <HomePage>
 
     <Particle/>
+    <HomePageContainer>
 
-    <div className='home-page-container'>
+      <HomePageImageContainer>
+        <HomePageImage src={ gosa } alt='homepage-img'/>
+      </HomePageImageContainer>
 
-      <div className='homepage-image-container'>
-        <img src={ gosa } alt='homepage-img' className='homepage-image'/>
-      </div>
-
-      <div className='homepage-desc'>
-        <h1>UNITY GATE</h1>
-        <p>search & connect...</p>
-      </div>
+      <HomePageDesc>
+        <HomePageDescHeading>UNITY GATE</HomePageDescHeading>
+        <HomePageDescHeading as='p'>search & connect...</HomePageDescHeading>
+      </HomePageDesc>
 
       <CustomButton className='custom-button google-sign-in'>
-        <i className='fa fa-facebook'></i> 
+        <I className='fa fa-facebook'></I>
         Login with Facebook 
       </CustomButton>
 
       <CustomButton className='custom-button google-sign-in'>
-        <i className='fa fa-google'></i>
+        <I className='fa fa-google'></I>
         Login with Google
       </CustomButton>
-      <p className='custom-link'>Create an account?</p>
-    </div>
-  </div>
+      <CustomLink>Create an account?</CustomLink>
+      
+    </HomePageContainer>
+  </HomePage>
 );
 
 export default Homepage;

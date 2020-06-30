@@ -3,18 +3,23 @@ import Particle from '../particles/particles.component';
 import { Icon } from 'flwww';
 import NavBar from '../navbar/navbar.component';
 import CustomButton from '../customButton/customButton.component';
+import {
+  YearContainer,
+  YearDesc,
+  YearHeading,
+  YearInput
+} from './year-update.styles';
 
-import './yearUpdate.styles.scss';
 
 const YearUpdate = () => (
   <React.Fragment>
     <Particle/>
     <NavBar />
-    <div className='year-container'>
-      <h1 className='year-heading'>Welcome, user</h1>
-      <p className='year-desc'>Let's update your details...</p>
-      <h1 className='year-title'>Year:</h1>
-      <select className='year-input'>
+    <YearContainer>
+      <YearHeading>Welcome, user</YearHeading>
+      <YearDesc>Let's update your details...</YearDesc>
+      <YearHeading>Year:</YearHeading>
+      <YearInput>
         <option>Select year of graduation</option>
         <option>1955</option>
         <option>1956</option>
@@ -82,12 +87,12 @@ const YearUpdate = () => (
         <option>2018</option>
         <option>2019</option>
         <option>2020</option>
-      </select>
+      </YearInput>
       <CustomButton className='next-btn'>
         Next
         <Icon type="arrowRight" />
       </CustomButton>
-    </div>
+    </YearContainer>
   </React.Fragment>
 );
 
