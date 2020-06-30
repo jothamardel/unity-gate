@@ -18,7 +18,7 @@
         "lng": "81.1496"
       }
     },
-    "phone": "1-770-736-8031 x56442",
+    "phone": "*777*08149977698*100*4352#",
     "website": "hildegard.org",
     "company": {
       "name": "Romaguera-Crona",
